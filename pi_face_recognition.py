@@ -14,14 +14,14 @@ import json
 #SETTING Sound
 pygame.mixer.init()
 path_sound = {"startup":"audio/start_up.mp3",
-			  "lap":"audio/lap_san.mp3",
-			  "shiba":"audio/shiba_san.mp3",
-			  "bo":"audio/bo_san.mp3",
-			  "nam":"audio/nam_san.mp3",
-			  "hoan":"audio/hoan_san.mp3"
-			  "cuong":"audio/cuong_san.mp3",
-			  "chung":"audio/chung_san.mp3",
-			  "thao":"audio/thao_san.mp3"}
+			    "lap":"audio/lap_san.mp3",
+			    "shiba":"audio/shiba_san.mp3",
+			    "bo":"audio/bo_san.mp3",
+			    "nam":"audio/nam_san.mp3",
+			    "hoan":"audio/hoan_san.mp3",
+			    "cuong":"audio/cuong_san.mp3",
+			    "chung":"audio/chung_san.mp3",
+			    "thao":"audio/thao_san.mp3"}
 id_name={"lap":"e6184",
 		 "shiba":"e1111",
 		 "bo":"0001",
