@@ -21,7 +21,8 @@ path_sound = {"startup":"audio/start_up.mp3",
 			    "hoan":"audio/hoan_san.mp3",
 			    "cuong":"audio/cuong_san.mp3",
 			    "chung":"audio/chung_san.mp3",
-			    "thao":"audio/thao_san.mp3"}
+			    "thao":"audio/thao_san.mp3",
+			    "nha":"audio/nha_san.mp3"}
 id_name={"lap":"e6184",
 		 "shiba":"e1111",
 		 "bo":"0001",
@@ -29,7 +30,8 @@ id_name={"lap":"e6184",
 		 "hoan_san.mp3":"0003",
 		 "cuong":"0004",
 		 "chung":"0005",
-		 "thao":"0006"}
+		 "thao":"0006",
+		 "nha":"0007"}
 #SETTING DATA ENCODING
 print("[INFO] loading encodings + face detector...")
 data = pickle.loads(open("encodings.pickle", "rb").read())
